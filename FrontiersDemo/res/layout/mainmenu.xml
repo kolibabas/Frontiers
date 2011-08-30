@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/mainmenulayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/menu">
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+<ImageButton
+android:id="@+id/playbutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:focusable="false"
+android:src="@drawable/playselector" android:layout_gravity="center">
+</ImageButton>
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+<ImageButton
+android:id="@+id/instructionsbutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:focusable="false"
+android:src="@drawable/instructionsselector" android:layout_gravity="center">
+</ImageButton>
+<ImageButton
+android:id="@+id/optionsbutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:focusable="false"
+android:src="@drawable/soundoff" android:layout_gravity="center">
+</ImageButton>
+<ImageButton
+android:id="@+id/highscorebutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:focusable="false"
+android:src="@drawable/highscoreselector" android:layout_gravity="center">
+</ImageButton>
+</LinearLayout>
+</LinearLayout>
+</RelativeLayout>

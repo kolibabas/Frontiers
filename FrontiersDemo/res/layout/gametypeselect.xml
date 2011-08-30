@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/gametypescreenbg">
+<ImageButton
+android:id="@+id/countdownbutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:src="@drawable/countdownselector" android:nextFocusDown="@+id/survivalbutton">
+</ImageButton>
+<ImageButton
+android:id="@+id/survivalbutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:src="@drawable/survivalselector" android:nextFocusDown="@+id/eliminationbutton" android:nextFocusUp="@+id/countdownbutton">
+</ImageButton>
+<ImageButton
+android:id="@+id/eliminationbutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:src="@drawable/eliminationselector" android:nextFocusUp="@+id/survivalbutton" android:nextFocusDown="@+id/unarmedbutton">
+</ImageButton>
+<ImageButton
+android:id="@+id/unarmedbutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:src="@drawable/unarmedselector" android:nextFocusUp="@+id/eliminationbutton">
+</ImageButton>
+</LinearLayout>

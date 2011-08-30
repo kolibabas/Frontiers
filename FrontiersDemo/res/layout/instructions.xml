@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/instructionsbackground"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<Button
+android:id="@+id/instructionsnextbutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Next"
+android:layout_alignParentBottom="true"
+android:layout_alignParentRight="true"
+>
+</Button>
+<Button
+android:id="@+id/instructionsbackbutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Back"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+>
+</Button>
+</RelativeLayout>

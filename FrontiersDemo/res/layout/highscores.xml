@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView 
+android:id="@+id/highscorestext"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:gravity="center_horizontal" android:textSize="25px" 
+android:textStyle="bold" android:text="HIGH SCORES" 
+android:typeface="monospace">
+</TextView>
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_gravity="center_horizontal"
+>
+<Spinner
+android:id="@+id/highscoregametypespinner"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+>
+</Spinner>
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/highscorebackbutton" 
+android:clickable="true"
+android:text="Back" 
+android:focusable="false">
+</Button>
+</LinearLayout>
+<ListView
+android:id="@+id/highscorelist"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+</ListView>
+</LinearLayout>
